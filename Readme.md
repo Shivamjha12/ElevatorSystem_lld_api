@@ -2,6 +2,13 @@
 
 This API provides functionality for managing an elevator system.
 
+## To run this project on your local environment
+1. `git clone <repository_link>`
+2. `pip install -r requirements.txt`
+3. `check the url endpoints`
+4. `Understand the service.py file in Main App, Where we create elevator sysytem main logic`
+5. Run command `python manage.py runserver`
+
 ## Endpoints
 
 ### 1. Initialize Elevator System
