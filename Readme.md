@@ -34,12 +34,12 @@ Method: GET
 
 This endpoint retrieves the next destination floor request which assigned for a specific elevator.
 
-### 5. Fetch Elevator Direction
+### 5. Check Elevator Direction
 
-URL: `/api/elevator/<elevator_id>/direction/`
+URL: `/api/elevator/direction/<int:elevator_id>/`
 Method: GET
 
-This endpoint retrieves the current direction of a specific elevator. It takes the elevator ID as a parameter and returns the direction (up, down, or stationary) in the response.
+This endpoint check the direction of a specific elevator. It takes the elevator ID as a parameter and return the status dict, where one of value is direction.
 
 ### 6. Save User Request
 
@@ -62,11 +62,4 @@ URL: `/api/elevator/door/<str:door>/<int:elevator_id>/`
 Method: GET
 
 This endpoint opens/close the door of a specific elevator. It takes the elevator ID as a parameter and string(open or close ) and according to string passed it updates the elevator's door status.
-
-### 9. Check Elevator Direction
-
-URL: `/api/elevator/direction/<int:elevator_id>/`
-Method: GET
-
-This endpoint check the direction of a specific elevator. It takes the elevator ID as a parameter and return the status dict, where one of value is direction.
 
