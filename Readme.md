@@ -2,7 +2,7 @@
 
 This API provides functionality for managing an elevator system.
 
-## To run this project on your local environment
+## To run this project on your local environment, Follow below Steps
 1. `git clone <repository_link>`
 2. `pip install -r requirements.txt`
 3. `check the url endpoints`
