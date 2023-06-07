@@ -10,8 +10,8 @@ URL: `/api/initialize/`
 Method: POST
 
 *This endpoint initializes the elevator system by providing the number of elevators and the number of floors. It creates the elevator system instance and stores it in the cache for future use.
-*To initialize the elevator system we have to pass two arguments num_elevators: number of elevator in system, num_floors: no.of foors in building
-*You have to pass json for initializing the elevator system eg: {"num_elevators":5,"num_floors":10}
+*To initialize the elevator system we have to pass two arguments num_elevators: number of elevator in system, num_floors: no.of foors in building.
+*You have to pass json for initializing the elevator system eg: {"num_elevators":5,"num_floors":10} .
 
 ### 2. Fetch All Requests
 
